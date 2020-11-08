@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="程智全" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="http://example.org/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+    <link rel="stylesheet" href="/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
 
     
     <meta name="twitter:card" content="summary"/>
@@ -19,7 +19,7 @@
 <meta property="og:description" content="再次搭建博客的记录 11月一日换电脑之后重新搭建了博客，下面是一段代码测试：
 #include &#34;mystring.h&#34;#include &lt;string.h&gt;#include &lt;iostream&gt;using namespace std; mystring::mystring(const char* str) //带默认参数的构造函数 { if(str == NULL) { _str = new char[1]; *_str = &#39;\0&#39;; } else { int len = strlen(str); _str = new char[len&#43;1]; strcpy(_str, str); } } mystring::mystring(const mystring &amp;other) //拷贝构造函数 { int len = strlen(other._str); this -&gt;_str = new char[len&#43;1]; strcpy(this-&gt;_str,other._str); } mystring &amp; mystring::operator=(const mystring &amp; other) //赋值运算符重载 { if(this == &amp;other) return *this; else { delete []this-&gt;_str; int len = strlen(other." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+<meta property="og:url" content="/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2020-11-08T09:36:55+08:00" />
 <meta property="article:modified_time" content="2020-11-08T09:36:55+08:00" />
 
@@ -27,7 +27,7 @@
   </head>
   <body>
     <header class="app-header">
-      <a href="http://example.org/"><img class="app-header-avatar" src="/%e5%a4%b4%e5%83%8f.jpg" alt="程智全" /></a>
+      <a href="/"><img class="app-header-avatar" src="/%e5%a4%b4%e5%83%8f.jpg" alt="程智全" /></a>
       <h1>程智全</h1>
       <p>重邮菜鸟</p>
       <div class="app-header-social">
