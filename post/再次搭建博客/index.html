@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>再次搭建博客 // My New Hugo Site</title>
+    <title>再次搭建博客 // 程智全</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.78.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="John Doe" />
+    <meta name="author" content="程智全" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="https://maturejhon.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+    <link rel="stylesheet" href="http://example.org/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
 
     
     <meta name="twitter:card" content="summary"/>
@@ -19,7 +19,7 @@
 <meta property="og:description" content="再次搭建博客的记录 11月一日换电脑之后重新搭建了博客，下面是一段代码测试：
 #include &#34;mystring.h&#34;#include &lt;string.h&gt;#include &lt;iostream&gt;using namespace std; mystring::mystring(const char* str) //带默认参数的构造函数 { if(str == NULL) { _str = new char[1]; *_str = &#39;\0&#39;; } else { int len = strlen(str); _str = new char[len&#43;1]; strcpy(_str, str); } } mystring::mystring(const mystring &amp;other) //拷贝构造函数 { int len = strlen(other._str); this -&gt;_str = new char[len&#43;1]; strcpy(this-&gt;_str,other._str); } mystring &amp; mystring::operator=(const mystring &amp; other) //赋值运算符重载 { if(this == &amp;other) return *this; else { delete []this-&gt;_str; int len = strlen(other." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://maturejhon.github.io/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+<meta property="og:url" content="http://example.org/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2020-11-08T09:36:55+08:00" />
 <meta property="article:modified_time" content="2020-11-08T09:36:55+08:00" />
 
@@ -27,10 +27,20 @@
   </head>
   <body>
     <header class="app-header">
-      <a href="https://maturejhon.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
-      <h1>My New Hugo Site</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <a href="http://example.org/"><img class="app-header-avatar" src="/%e5%a4%b4%e5%83%8f.jpg" alt="程智全" /></a>
+      <h1>程智全</h1>
+      <p>重邮菜鸟</p>
       <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/MatureJhon" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://gitee.com/maturejhon" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg></a>
         
       </div>
     </header>

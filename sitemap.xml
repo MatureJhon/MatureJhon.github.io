@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://maturejhon.github.io/</loc>
+    <loc>http://example.org/post/</loc>
     <lastmod>2020-11-08T09:36:55+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://maturejhon.github.io/post/</loc>
+    <loc>http://example.org/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2020-11-08T09:36:55+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://maturejhon.github.io/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://example.org/</loc>
     <lastmod>2020-11-08T09:36:55+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://maturejhon.github.io/categories/</loc>
+    <loc>http://example.org/categories/</loc>
   </url>
   
   <url>
-    <loc>https://maturejhon.github.io/tags/</loc>
+    <loc>http://example.org/tags/</loc>
   </url>
   
 </urlset>

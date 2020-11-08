@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://maturejhon.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on 程智全</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Posts on 程智全</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2020 09:36:55 +0800</lastBuildDate><atom:link href="https://maturejhon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Nov 2020 09:36:55 +0800</lastBuildDate><atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>再次搭建博客</title>
-      <link>https://maturejhon.github.io/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://example.org/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 08 Nov 2020 09:36:55 +0800</pubDate>
       
-      <guid>https://maturejhon.github.io/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://example.org/post/%E5%86%8D%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>再次搭建博客的记录 11月一日换电脑之后重新搭建了博客，下面是一段代码测试：
 #include &amp;#34;mystring.h&amp;#34;#include &amp;lt;string.h&amp;gt;#include &amp;lt;iostream&amp;gt;using namespace std; mystring::mystring(const char* str) //带默认参数的构造函数 { if(str == NULL) { _str = new char[1]; *_str = &amp;#39;\0&amp;#39;; } else { int len = strlen(str); _str = new char[len+1]; strcpy(_str, str); } } mystring::mystring(const mystring &amp;amp;other) //拷贝构造函数 { int len = strlen(other._str); this -&amp;gt;_str = new char[len+1]; strcpy(this-&amp;gt;_str,other._str); } mystring &amp;amp; mystring::operator=(const mystring &amp;amp; other) //赋值运算符重载 { if(this == &amp;amp;other) return *this; else { delete []this-&amp;gt;_str; int len = strlen(other.</description>
     </item>
